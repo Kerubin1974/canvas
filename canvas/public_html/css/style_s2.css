@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+body {
+	/*overflow:  hidden;*/
+	font: 100%/1.5em Arial,sans-serif;
+	color: #000;
+}
+body, html{
+	height: 100%;
+	width: 100%;
+}
+header, article, aside, figure, figcaption, footer, hgroup, nav, section {
+	display: block;
+}
+img {
+	min-width: 100%;
+	height: auto;
+}
+
+.flexbox{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: flex-start;
+	-moz-flex-direction: flex-start;
+	-ms-flex-direction: flex-start;
+	-o-flex-direction: flex-start;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+}
+.header{
+	background: red;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	-webkit-box-shadow: 0px 5px 10px #ccc;
+	box-shadow: 0px 5px 10px #ccc;
+}
+
+.headmenu{
+	width: 800px;
+	margin: auto;
+	height: 50px;
+}
+
+#n1{
+	float: left;
+}
+#n2{
+	float: right;
+}
+
+input{
+	width: 25px
+	height: 24px;
+}
+#spanBot{
+	display: block;
+	border-radius: 5px;
+	border: 1px solid #000;
+	padding: 3px 10px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+	width: 200px;
+	background: green;
+	margin-top: 5px;
+}
+#spanBot:hover{
+	background: #ccc;
+}
+#xy{
+	display: block;
+	position: absolute;
+	font-size: 10px;
+	left: 5px;
+}
+.corpus{
+	height: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+#poligon{
+	/*width: 600px;
+	height: 500px;*/
+	-webkit-box-shadow: 0px 0px 10px #000;
+	box-shadow: 0px 0px 10px #000;
+	margin: 0 auto;
+	/*background-size: cover;*/
+	background-size: 100% 100%;
+	position: relative;
+}
+#otvet{
+	text-align: center;
+	height: 25px;
+	top: -30px;
+	line-height: 25px;
+	font-size: 4vh;
+}
+svg{
+ 	position: absolute;
+ /*	width: 600px;
+	height: 500px;*/
+	background-size: 100% 100%;
+}
+
+polygon{
+	opacity: 1;
+}
+
+#pokaz{
+	float: left;
+	margin: auto;
+	cursor: pointer;
+	border: 1px solid #000;
+	border-radius: 15px;
+	-webkit-box-shadow: 1px 1px 4px #000;
+	box-shadow: 1px 1px 4px #000;
+	font-size: 14px;
+	padding: 5px;
+	position: relative;
+	bottom: 20px;
+}
+
+#gps{
+	text-align: center;
+	width: 180px;
+	height: 400px;
+	background: #ccc;
+	left: -200px;
+	overflow-y: scroll;
+	word-wrap: break-word;
+	font-size: 9px;
+	line-height: 10px;
+}
+
+/*====== media ==========*/
+@media (max-width: 600px) {
+	#poligon{
+		width: 300px;
+		height: 250px;
+	}
+}
+@media (max-width: 300px) {
+	#poligon{
+		width: 300px;
+		height: 250px;
+	}
+}
+@media (min-width: 600px) {
+	#poligon{
+		width: 600px;
+		height: 500px;
+	}
+}

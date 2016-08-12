@@ -1,0 +1,24 @@
+[Mon Aug 08 16:05:45.183535 2016] [:error] [pid 2976] [client 127.0.0.1:34412] PHP Warning:  preg_replace(): Unknown modifier '*' in /var/www/html/canvas/public_html/test.php on line 6
+[Mon Aug 08 16:05:45.183628 2016] [:error] [pid 2976] [client 127.0.0.1:34412] PHP Stack trace:
+[Mon Aug 08 16:05:45.183668 2016] [:error] [pid 2976] [client 127.0.0.1:34412] PHP   1. {main}() /var/www/html/canvas/public_html/test.php:0
+[Mon Aug 08 16:05:45.183683 2016] [:error] [pid 2976] [client 127.0.0.1:34412] PHP   2. preg_replace() /var/www/html/canvas/public_html/test.php:6
+[Mon Aug 08 16:25:05.905367 2016] [:error] [pid 2832] [client 127.0.0.1:34844] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /var/www/html/canvas/public_html/test.php on line 17
+[Mon Aug 08 16:25:23.694425 2016] [:error] [pid 2976] [client 127.0.0.1:34854] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /var/www/html/canvas/public_html/test.php on line 17
+[Mon Aug 08 16:27:18.880527 2016] [:error] [pid 2835] [client 127.0.0.1:34969] PHP Parse error:  syntax error, unexpected 'header' (T_STRING) in /var/www/html/canvas/public_html/test.php on line 4
+[Mon Aug 08 16:28:07.703683 2016] [:error] [pid 10877] [client 127.0.0.1:34980] PHP Parse error:  syntax error, unexpected 'header' (T_STRING) in /var/www/html/canvas/public_html/test.php on line 4
+[Mon Aug 08 16:28:14.606362 2016] [:error] [pid 10874] [client 127.0.0.1:34992] PHP Parse error:  syntax error, unexpected '}' in /var/www/html/canvas/public_html/test.php on line 16
+[Mon Aug 08 17:35:03.754579 2016] [:error] [pid 2836] [client 127.0.0.1:35827] PHP Parse error:  syntax error, unexpected end of file in /var/www/html/canvas/public_html/test.php on line 49
+[Mon Aug 08 17:46:42.407724 2016] [:error] [pid 2833] [client 127.0.0.1:35960] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /var/www/html/canvas/public_html/test.php on line 13
+[Mon Aug 08 17:46:53.417333 2016] [:error] [pid 10876] [client 127.0.0.1:35974] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /var/www/html/canvas/public_html/test.php on line 13
+[Mon Aug 08 17:47:00.953085 2016] [:error] [pid 2975] [client 127.0.0.1:35978] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /var/www/html/canvas/public_html/test.php on line 13
+[Mon Aug 08 17:47:18.761247 2016] [:error] [pid 2832] [client 127.0.0.1:35983] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /var/www/html/canvas/public_html/test.php on line 13
+[Mon Aug 08 17:47:45.504167 2016] [:error] [pid 2976] [client 127.0.0.1:35988] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /var/www/html/canvas/public_html/test.php on line 15
+[Mon Aug 08 17:47:56.126005 2016] [:error] [pid 2836] [client 127.0.0.1:35992] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /var/www/html/canvas/public_html/test.php on line 15
+[Mon Aug 08 17:52:01.281734 2016] [:error] [pid 15020] [client 127.0.0.1:36032] PHP Parse error:  syntax error, unexpected '$searchStr' (T_VARIABLE) in /var/www/html/canvas/public_html/test.php on line 16
+[Mon Aug 08 17:53:20.434982 2016] [:error] [pid 15022] [client 127.0.0.1:36042] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /var/www/html/canvas/public_html/test.php on line 41
+[Mon Aug 08 17:58:25.723265 2016] [:error] [pid 15020] [client 127.0.0.1:36124] PHP Parse error:  syntax error, unexpected ';' in /var/www/html/canvas/public_html/test.php on line 14
+[Mon Aug 08 18:08:20.848806 2016] [:error] [pid 15020] [client 127.0.0.1:36259] PHP Warning:  max() expects at least 1 parameter, 0 given in /var/www/html/canvas/public_html/test.php on line 19
+[Mon Aug 08 18:08:20.848911 2016] [:error] [pid 15020] [client 127.0.0.1:36259] PHP Stack trace:
+[Mon Aug 08 18:08:20.848941 2016] [:error] [pid 15020] [client 127.0.0.1:36259] PHP   1. {main}() /var/www/html/canvas/public_html/test.php:0
+[Mon Aug 08 18:08:20.848957 2016] [:error] [pid 15020] [client 127.0.0.1:36259] PHP   2. palindrome() /var/www/html/canvas/public_html/test.php:9
+[Mon Aug 08 18:08:20.848992 2016] [:error] [pid 15020] [client 127.0.0.1:36259] PHP   3. max() /var/www/html/canvas/public_html/test.php:19

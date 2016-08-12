@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+body {
+	/*overflow:  hidden;*/
+	font: 100%/1.5em Arial,sans-serif;
+	color: #000;
+}
+body, html{
+	height: 100%;
+	width: 100%;
+}
+header, article, aside, figure, figcaption, footer, hgroup, nav, section {
+	display: block;
+}
+img {
+	min-width: 100%;
+	height: auto;
+}
+
+.flexbox{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	/*display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: flex-start;
+	-ms-align-items: center;
+	align-items: center;*/
+}
+.header{
+	width: 100%;
+	height: 65px;
+}
+#n1, #n2{
+	width: 100%;
+	clear: both;
+}
+#n1 span{
+	display: block;
+	border-radius: 5px;
+	border: 1px solid #000;
+	padding: 1px 3px;
+	cursor: pointer;
+	background: green;
+}
+#n2{
+	height: 30px;
+}
+#n2 input{
+	border: 1px solid #000;
+	padding: 1px 3px;
+}
+#spanBot{
+	float: left;
+}
+#pokaz{
+	float: right;
+}
+#otvet {
+	background: #ccc;
+	position: absolute;
+	border: 1px solid #000;
+	padding: 3px;
+	left: 5px;
+	-webkit-box-shadow: 2px 2px 5px #000;
+	box-shadow: 2px 2px 5px #000;
+	opacity: 0.8;
+	/*display: none;*/
+	z-index: 10;
+}
+#poligon{
+	-webkit-box-shadow: 0px 0px 10px #000;
+	box-shadow: 0px 0px 10px #000;
+	margin: 0 auto;
+	background-size: 100% 100%;
+}
+#poligon svg{
+	background-size: 100% 100%;
+}
+polygon{
+	opacity: 1;
+}
+#gps{
+	text-align: center;
+	background: #ccc;
+	overflow-y: scroll;
+	word-wrap: break-word;
+	font-size: 9px;
+	line-height: 10px;
+	margin-top: 5px;
+}
+#pokaz{
+
+}
+.vertical{
+	margin: 0 auto;
+}
+#xy{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 50px;
+	height: 30px;
+	background: #ccc;
+}
+/*====== media ==========*/
+@media (max-width: 600px) {
+	#poligon{
+		width: 300px;
+		height: 250px;
+	}
+	.vertical{
+		width: 300px;
+	}
+}
+@media (max-width: 300px) {
+	#poligon{
+		width: 300px;
+		height: 250px;
+	}
+	.vertical{
+		width: 300px;
+	}
+}
+@media (min-width: 600px) {
+	#poligon{
+		width: 856px;
+		height: 619px;
+	}
+	.vertical{
+		width: 856px;
+	}
+}

@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+body {
+	/*overflow:  hidden;*/
+	font: 100%/1.5em Arial,sans-serif;
+	color: #000;
+}
+body, html{
+	height: 100%;
+	width: 100%;
+}
+header, article, aside, figure, figcaption, footer, hgroup, nav, section {
+	display: block;
+}
+img {
+	min-width: 100%;
+	height: auto;
+}
+
+.flexbox{
+	height: 100%;
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: stretch;
+	align-items: stretch;
+}
+.header{
+	background: red;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	-webkit-box-shadow: 0px 5px 10px #ccc;
+	box-shadow: 0px 5px 10px #ccc;
+}
+.corpus{
+	height: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	position: relative;
+}
+ svg{
+ 	position: absolute;
+ 	left: 100px;
+ 	border: 1px solid #000;
+ 	width: 600px;
+	height: 500px;
+ }
+#canva{
+	/*border: 1px dashed blue;*/
+	width: 600px;
+	height: 500px;
+	-webkit-box-shadow: 0px 0px 10px #000;
+	box-shadow: 0px 0px 10px #000;
+	margin: auto;
+	/*background-size: cover;*/
+	background-size: 100% 100%;
+}
+
